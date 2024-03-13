@@ -7,6 +7,6 @@
 </head>
 <body>
     <p><?php echo "Hello world"; ?></p>
-    <p><?php echo env('AZURE_TEST'); ?></p>
+    <p><?php echo getenv("AZURE_TEST"); ?></p>
 </body>
 </html>
