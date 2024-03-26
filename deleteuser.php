@@ -1,5 +1,5 @@
 <?php 
-require ".env";
+include ".env";
 
 $id = $_GET["id"];
 

@@ -1,5 +1,5 @@
 <?php 
-require ".env";
+include ".env";
 
 $name = $_GET["name"];
 $barcode = $_GET["barcode"];
