@@ -1,5 +1,5 @@
 <?php 
-require ".env";
+include ".env";
 $connectionInfo = array(
   "UID" => "" . getenv("AZURE_DB_USER") . "", 
   "pwd" => "" . getenv("AZURE_DB_PASS") . "", 
